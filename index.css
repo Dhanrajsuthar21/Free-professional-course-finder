@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  background: #9F9FA6;
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+#header a {
+  color: black;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height: 100vh;
+  background-color: #895F40;
+  background: url("https://i.ibb.co/FqfLxPp/screenshot-20250102-160546-2.png") no-repeat center/cover;
+}
+
+
+#select {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  border: 2px white solid;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 40px 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 200px;
+}
+
+select {
+  background: #fafafa;
+  color: black;
+  margin: 10px 0;
+  border-radius: 8px;
+  
+  outline: none;
+  font-size: 16px;
+  
+  transition: border 0.3s ease;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+select:focus {
+  border: 1px solid #4a6cff;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #4a6cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #374dbf;
+}
+
+@media(min-width:968px) {
+  #select {
+    margin-top: 300px;
+    max-width: 400px;
+  }
+  
+  #header a {
+    font-size: 50px;
+  }
+  
+  select {
+    
+    font-size: 30px;
+    
+    
+    padding: 12px;
+    
+    
+  }
+  
+  button {
+    font-size: 30px;
+  }
+}
