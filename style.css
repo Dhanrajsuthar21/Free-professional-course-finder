@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+#header {
+  background: #9F9FA6;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: black;
+}
+
+#header a {
+  color: black;
+}
+
+.card {
+  padding: 10px;
+  border: 2px green solid;
+  border-radius: 10px;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.img {
+  width: 100%;
+  
+}
+
+
+.img img {
+  max-width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card a {
+  background: deepskyblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.back-btn {
+  padding: 7px 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  background: red;
+  color: black;
+  font-size: 18px;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 8px;
+}
+
+
+@media (min-width:968px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    gap: 10px;
+    
+  }
+  
+  #header {
+    font-size: 50px;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .card p {
+    font-size: 20px;
+  }
+  
+  .card h2 {
+    font-size: 30px;
+  }
+  
+  .img {
+    flex: 0 0 40%;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .img img {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+/* size or responsibility ki problem h2 or p ki size 60 or 40 krne par image mobile view ke alawa sabhi view me apne niche khali sthan chodti h*/
